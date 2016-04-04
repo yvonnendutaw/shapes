@@ -1,6 +1,30 @@
 body {
     background-color: yellow;
+    align-items: center;
+    text-align: center;
 }
 h1 {
     color: black;
 }
+.triangle {}
+.square {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background: purple;
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    background: grey;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+}
+.parallelogram {}
+.trapezium {}
+.star {}
