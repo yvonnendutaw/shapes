@@ -8,7 +8,7 @@ h1 {
 }
 .triangle {
     margin: auto;
-    margin-bottom: 6px;
+    margin-bottom: 30px;
     width: 0;
     height: 0;
     border-left: 50px solid transparent;
@@ -17,21 +17,21 @@ h1 {
 }
 .square {
     margin: auto;
-    margin-bottom: 6px;
+    margin-bottom: 30px;
     width: 100px;
     height: 100px;
     background: red;
 }
 .rectangle {
     margin: auto;
-    margin-bottom: 6px;
+    margin-bottom: 30px;
     width: 200px;
     height: 100px;
     background: purple;
 }
 .circle {
     margin: auto;
-    margin-bottom: 6px;
+    margin-bottom: 30px;
     width: 100px;
     height: 100px;
     background: grey;
@@ -41,7 +41,7 @@ h1 {
 }
 .parallelogram {
     margin: auto;
-    margin-bottom: 6px;
+    margin-bottom: 30px;
     width: 150px;
     height: 100px;
     -webkit-transform: skew(20deg);
@@ -51,7 +51,7 @@ h1 {
 }
 .trapezium {
     margin: auto;
-    margin-bottom: 6px;
+    margin-bottom: 30px;
     border-bottom: 100px solid white;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
@@ -60,19 +60,21 @@ h1 {
 }
 .star {
     margin: auto;
+    margin-bottom: 30px;
     width: 0;
     height: 0;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
-    border-bottom: 100px solid red;
+    border-bottom: 100px solid black;
     position: relative;
 }
 .star:after {
+    margin-bottom: 30px;
     width: 0;
     height: 0;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
-    border-top: 100px solid red;
+    border-top: 100px solid black;
     position: absolute;
     content: "";
     top: 30px;
