@@ -6,18 +6,28 @@ body {
 h1 {
     color: black;
 }
-.triangle {}
+.triangle {
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid blue;
+}
 .square {
+    margin: auto;
     width: 100px;
     height: 100px;
     background: red;
 }
 .rectangle {
+    margin: auto;
     width: 200px;
     height: 100px;
     background: purple;
 }
 .circle {
+    margin: auto;
     width: 200px;
     height: 200px;
     background: grey;
@@ -25,6 +35,31 @@ h1 {
     -webkit-border-radius: 100px;
     border-radius: 100px;
 }
-.parallelogram {}
-.trapezium {}
-.star {}
+.parallelogram {
+    margin: auto;
+    width: 150px;
+    height: 100px;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    background: green;
+}
+.trapezium {
+    margin: auto;
+}
+.star {
+    margin: auto;
+    margin: 50px 0;
+    position: relative;
+    display: block;
+    color: red;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid red;
+    border-left: 100px solid transparent;
+    -moz-transform: rotate(35deg);
+    -webkit-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    -o-transform: rotate(35deg);
+}
