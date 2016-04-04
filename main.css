@@ -8,6 +8,7 @@ h1 {
 }
 .triangle {
     margin: auto;
+    margin-bottom: 6px;
     width: 0;
     height: 0;
     border-left: 50px solid transparent;
@@ -16,20 +17,23 @@ h1 {
 }
 .square {
     margin: auto;
+    margin-bottom: 6px;
     width: 100px;
     height: 100px;
     background: red;
 }
 .rectangle {
     margin: auto;
+    margin-bottom: 6px;
     width: 200px;
     height: 100px;
     background: purple;
 }
 .circle {
     margin: auto;
-    width: 200px;
-    height: 200px;
+    margin-bottom: 6px;
+    width: 100px;
+    height: 100px;
     background: grey;
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
@@ -37,6 +41,7 @@ h1 {
 }
 .parallelogram {
     margin: auto;
+    margin-bottom: 6px;
     width: 150px;
     height: 100px;
     -webkit-transform: skew(20deg);
@@ -46,7 +51,8 @@ h1 {
 }
 .trapezium {
     margin: auto;
-    border-bottom: 100px solid red;
+    margin-bottom: 6px;
+    border-bottom: 100px solid white;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
     height: 0;
@@ -54,17 +60,21 @@ h1 {
 }
 .star {
     margin: auto;
-    margin: 50px 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
     position: relative;
-    display: block;
-    color: red;
-    width: 0px;
-    height: 0px;
-    border-right: 100px solid transparent;
-    border-bottom: 70px solid red;
-    border-left: 100px solid transparent;
-    -moz-transform: rotate(35deg);
-    -webkit-transform: rotate(35deg);
-    -ms-transform: rotate(35deg);
-    -o-transform: rotate(35deg);
+}
+.star:after {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid red;
+    position: absolute;
+    content: "";
+    top: 30px;
+    left: -50px;
 }
